@@ -1,0 +1,28 @@
+feature;type;description
+Manufacturer;categorical;Manufacturer.
+Model;categorical;Model.
+Type;categorical;Type: a factor with levels "Small", "Sporty", "Compact", "Midsize", "Large" and "Van".
+Min.Price;numerical;Minimum Price (in \$1,000): price for a basic version.
+Price;numerical;Midrange Price (in \$1,000): average of Min.Price and Max.Price.
+Max.Price;numerical;Maximum Price (in \$1,000): price for “a premium version”.
+MPG.city;numerical;City MPG (miles per US gallon by EPA rating).
+MPG.highway;numerical;Highway MPG.
+AirBags;categorical;Air Bags standard. Factor: none, driver only, or driver & passenger.
+DriveTrain;categorical;Drive train type: rear wheel, front wheel or 4WD (factor).
+Cylinders;categorical;Number of cylinders (missing for Mazda RX-7, which has a rotary engine).
+EngineSize;numerical;Engine size (litres).
+Horsepower;numerical;Horsepower (maximum).
+RPM;numerical;RPM (revs per minute at maximum horsepower).
+Rev.per.mile;numerical;Engine revolutions per mile (in highest gear).
+Man.trans.avail;categorical;Is a manual transmission version available? (yes or no, Factor).
+Fuel.tank.capacity;numerical;Fuel tank capacity (US gallons).
+Passengers;numerical;Passenger capacity (persons)
+Length;numerical;Length (inches).
+Wheelbase;numerical;Wheelbase (inches).
+Width;numerical;Width (inches).
+Turn.circle;numerical;U-turn space (feet).
+Rear.seat.room;numerical;Rear seat room (inches) (missing for 2-seater vehicles).
+Luggage.room;numerical;Luggage capacity (cubic feet) (missing for vans).
+Weight;numerical;Weight (pounds).
+Origin;categorical;Of non-USA or USA company origins? (factor).
+Make;categorical;Combination of Manufacturer and Model (character).
